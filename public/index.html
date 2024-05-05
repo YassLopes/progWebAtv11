@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consulta de Filme</title>
+</head>
+<body>
+    <h1 class="mb-4">Consulta de Filme</h1>
+    <div class="input-group mb-3">
+        <input type="text" id="title" class="form-control" placeholder="Digite o título do filme em inglês">
+        <button onclick="consultarFilme()" class="btn btn-primary">Consultar Filme</button>
+    </div>
+    <div id="resultado" class="alert alert-secondary" role="alert"></div>
+    <img id="poster" src="" alt="Poster do filme" class="img-fluid mt-3" hidden>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
